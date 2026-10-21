@@ -1,4 +1,19 @@
+# Python and environments
 *.egg-info/
 .venv/
 .pytest_cache/
 __pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Challenge datasets (distributed via release asset, do not commit)
+data-v1.tar.gz
+challenge_data/vm_cpu_readings.csv.gz
+challenge_data/vm_metadata.csv.gz
+challenge_data/DATA_CARD.md
+challenge_data/SHA256SUMS
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
