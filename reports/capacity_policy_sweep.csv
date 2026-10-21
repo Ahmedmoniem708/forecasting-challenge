@@ -1,0 +1,10 @@
+Policy,Parameter,Underprov Rate (%),Max Deficit (%),Avg Idle Slack (%),Total Asymmetric Cost
+Point Forecast (No Buffer),0.0,37.5%,0.296%,0.078%,9.61
+Fixed Margin 5%,0.05,0.0%,0.000%,0.511%,12.27
+Fixed Margin 10%,0.1,0.0%,0.000%,0.977%,23.44
+Fixed Margin 15%,0.15,0.0%,0.000%,1.442%,34.62
+Fixed Margin 20%,0.2,0.0%,0.000%,1.908%,45.80
+Statistical P90 (1.28-sigma),1.28,4.2%,0.065%,0.278%,7.34
+Statistical P95 (1.65-sigma),1.645,0.0%,0.000%,0.341%,8.19
+Statistical P99 (2.33-sigma),2.33,0.0%,0.000%,0.465%,11.15
+Dynamic Horizon P95,1.645,0.0%,0.000%,0.524%,12.59

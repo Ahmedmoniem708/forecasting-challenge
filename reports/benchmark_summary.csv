@@ -1,0 +1,7 @@
+Model,CV MAE,CV RMSE,CV sMAPE (%),Normalized MAE,Peak MAE,MASE
+Persistence (Baseline),0.2152 ± 0.0885,0.2514,2.26%,1.000,0.1239,1.720
+Moving Average (30m),0.2428 ± 0.0945,0.2724,2.55%,1.128,0.1900,1.944
+AutoRegressive AR(2),0.1997 ± 0.0559,0.2290,2.11%,0.928,0.1993,1.599
+Direct Ridge Regression,0.2600 ± 0.0448,0.2880,2.75%,1.208,0.2361,2.081
+Direct LightGBM,0.2767 ± 0.0354,0.3086,2.92%,1.286,0.2257,2.215
+Hierarchical Segment AR(2),0.1938 ± 0.0606,0.2240,2.05%,0.901,0.1761,1.552
